@@ -1,0 +1,24 @@
+[
+{
+    "level": "east_coast_usa",
+    "name": "Alko Google",
+    "description": "Projekt badawczy pozwalajacy na zbadanie wplywu alkoholu na jazde",
+    "previews": ["my_first_scenario.jpg"],
+    "type": "race",
+    "authors": "Jakub Mackiewicz , Sowa Michał Błaszczyk Stanisław",
+
+    "difficulty": "10",
+	
+	"vehicles": {
+        "scenario_player0": {"playerUsable": true, "startFocus": true },
+        "*": {"playerUsable": false},
+    },
+	
+    "whiteListActions": ["default_whitelist_scenario" ],
+    "blackListActions": ["default_blacklist_scenario" ],
+	
+    "lapConfig": [""],
+    "prefabs": ["my_first_scenario"],
+    "radiusMultiplierAI": 2
+},
+]

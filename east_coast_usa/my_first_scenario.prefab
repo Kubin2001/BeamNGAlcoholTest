@@ -1,0 +1,22 @@
+//--- OBJECT WRITE BEGIN ---
+$ThisPrefab = new SimGroup() {
+   canSave = "1";
+   canSaveDynamicFields = "1";
+      groupPosition = "0.000000 40000.000000 0.000000";
+
+   new BeamNGVehicle(scenario_player0) {
+      JBeam = "hatch";
+      color = "1 1 1 1.2";
+      partConfig = "vehicles/hatch/stock_M.pc";
+      renderDistance = "500";
+      renderFade = "0.1";
+      isAIControlled = "0";
+      dataBlock = "default_vehicle";
+      position = "40000 4000 4000";
+      rotation = "0 0 1 111.056";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+};
+//--- OBJECT WRITE END ---
