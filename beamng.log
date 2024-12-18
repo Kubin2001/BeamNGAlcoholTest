@@ -1,0 +1,426 @@
+  0.00320|D|logging| -- Log started - v 0.33.3.0 - x64 - build 17209 - 2024-12-17 -- 22:06:26 -----
+  0.00321|D|logging| -- buildbot build 17209 on winbuildbot3 - 04/10/2024 - 16:16:55
+  0.00321|D|logging| -- Log Format: Time since startup | Message level: D(ebug), I(nfo), W(arning), E(rror), A(lways) | Message
+  0.27931|I|engine::initFS| Virtual Filesystem: user path: D:\Studia\Programowanie\Python\BeamNG\Dokumentacja\0.33\
+  0.27933|D|engine::initFS|  - user path reason: Command argument -userpath
+  0.27933|D|engine::initFS|  - user mods path: D:\Studia\Programowanie\Python\BeamNG\Dokumentacja\0.33\mods/
+  0.27934|D|engine::initFS|  - game mods path: D:/Programy/BeamNG/BeamNG.tech.v0.33.3.0/content/
+  0.27947|I|engine::Processor::init| AMD Ryzen 5 2600 Six-Core Processor             ~3.39 GHz [HT,] 1 physical, 6 cores, 12 logical
+  0.27950|D|main| H2 DAB6286E18F71B2BE8CD70BA1E1C5488ACC4
+  0.28221|D|engine::DirectInputInputDeviceSystem::initialize| Initializing DirectInput...
+  0.29233|D|engine::DirectInputInputDeviceSystem::enumerateDevices|  *** DirectInput device enumeration about to begin
+  0.29803|D|engine::DirectInputDevice::initialize| Mysz [instance: Mysz] detected, created as mouse0 (asynchronous)
+  0.29806|D|engine::DirectInputDevice::initialize|  - devtype 0x112
+  0.29808|D|engine::DirectInputDevice::initialize|  - A mouse or mouse-like device (such as a trackball)
+  0.29809|D|engine::DirectInputDevice::initialize|  + 3 axes
+  0.29810|D|engine::DirectInputDevice::initialize|  + 5 buttons
+  0.29817|D|engine::DirectInputDevice::initialize| created device 'mouse0', took 0.000s: create:0.008ms, caps:0.003ms, txts:0.085ms, enum:0.023ms, fmt:0.011ms, buff:0.013ms, axis:0.001ms
+  0.29821|D|engine::DirectInputInputDeviceSystem::EnumDevicesProc| EnumDevicesProc() for device 'Mysz' took 0.000s: conv:0.003ms, type:0.000ms, xinp:0.221ms, add/create:0.209ms, create():0.000ms
+  0.29831|D|engine::DirectInputDevice::initialize| Klawiatura [instance: Klawiatura] detected, created as keyboard0 (asynchronous)
+  0.29832|D|engine::DirectInputDevice::initialize|  - devtype 0x413
+  0.29833|D|engine::DirectInputDevice::initialize|  - Keyboard or keyboard-like:
+  0.29834|D|engine::DirectInputDevice::initialize|   - IBM PC Enhanced 101/102-key or Microsoft Natural keyboard.
+  0.29835|D|engine::DirectInputDevice::initialize|  + 128 buttons
+  0.29917|D|engine::DirectInputDevice::initialize| created device 'keyboard0', took 0.001s: create:0.019ms, caps:0.000ms, txts:0.051ms, enum:0.733ms, fmt:0.052ms, buff:0.000ms, axis:0.001ms
+  0.29922|D|engine::DirectInputInputDeviceSystem::EnumDevicesProc| EnumDevicesProc() for device 'Klawiatura' took 0.001s: conv:0.000ms, type:0.000ms, xinp:0.000ms, add/create:0.950ms, create():0.000ms
+  0.30404|D|engine::DirectInputInputDeviceSystem::EnumDevicesProc| Ignoring unsuitable didevice_type 0x11 (17) for device 'Razer Ornata Chroma'
+  0.30406|D|engine::DirectInputInputDeviceSystem::EnumDevicesProc| EnumDevicesProc() for device 'Razer Ornata Chroma' took 0.000s: conv:0.001ms, type:0.023ms
+  0.30583|D|engine::DirectInputInputDeviceSystem::EnumDevicesProc| Ignoring unsuitable didevice_type 0x11 (17) for device 'Razer Ornata Chroma'
+  0.30585|D|engine::DirectInputInputDeviceSystem::EnumDevicesProc| EnumDevicesProc() for device 'Razer Ornata Chroma' took 0.000s: conv:0.001ms, type:0.022ms
+  0.30757|D|engine::DirectInputInputDeviceSystem::EnumDevicesProc| Ignoring unsuitable didevice_type 0x11 (17) for device 'Razer Ornata Chroma'
+  0.30759|D|engine::DirectInputInputDeviceSystem::EnumDevicesProc| EnumDevicesProc() for device 'Razer Ornata Chroma' took 0.000s: conv:0.001ms, type:0.020ms
+  0.30929|D|engine::DirectInputInputDeviceSystem::EnumDevicesProc| Ignoring unsuitable didevice_type 0x11 (17) for device 'Razer Ornata Chroma'
+  0.30931|D|engine::DirectInputInputDeviceSystem::EnumDevicesProc| EnumDevicesProc() for device 'Razer Ornata Chroma' took 0.000s: conv:0.001ms, type:0.020ms
+  0.31607|D|engine::DirectInputInputDeviceSystem::EnumDevicesProc| Ignoring unsuitable didevice_type 0x11 (17) for device 'HID-compliant consumer control device'
+  0.31610|D|engine::DirectInputInputDeviceSystem::EnumDevicesProc| EnumDevicesProc() for device 'HID-compliant consumer control device' took 0.000s: conv:0.003ms, type:0.032ms
+  0.31652|D|engine::DirectInputInputDeviceSystem::enumerateDevices|  *** DirectInput device enumeration finished after 0.024s: DirectInput code:22.50ms, BeamNG code:1.636ms
+  0.31769|D|engine::DirectInputInputDeviceSystem::enumerateDevices|  *** DirectInput device enumeration about to begin
+  0.32301|D|engine::DirectInputDevice::initialize| Mysz [instance: Mysz] detected, created as mouse0 (asynchronous)
+  0.32303|D|engine::DirectInputDevice::initialize|  - devtype 0x112
+  0.32304|D|engine::DirectInputDevice::initialize|  - A mouse or mouse-like device (such as a trackball)
+  0.32305|D|engine::DirectInputDevice::initialize|  + 3 axes
+  0.32306|D|engine::DirectInputDevice::initialize|  + 5 buttons
+  0.32311|D|engine::DirectInputDevice::initialize| created device 'mouse0', took 0.000s: create:0.003ms, caps:0.000ms, txts:0.067ms, enum:0.015ms, fmt:0.004ms, buff:0.002ms, axis:0.001ms
+  0.32313|D|engine::DirectInputInputDeviceSystem::EnumDevicesProc| EnumDevicesProc() for device 'Mysz' took 0.000s: conv:0.003ms, type:0.000ms, xinp:0.001ms, add/create:0.131ms, create():0.000ms
+  0.32321|D|engine::DirectInputDevice::initialize| Klawiatura [instance: Klawiatura] detected, created as keyboard0 (asynchronous)
+  0.32322|D|engine::DirectInputDevice::initialize|  - devtype 0x413
+  0.32323|D|engine::DirectInputDevice::initialize|  - Keyboard or keyboard-like:
+  0.32324|D|engine::DirectInputDevice::initialize|   - IBM PC Enhanced 101/102-key or Microsoft Natural keyboard.
+  0.32325|D|engine::DirectInputDevice::initialize|  + 128 buttons
+  0.32396|D|engine::DirectInputDevice::initialize| created device 'keyboard0', took 0.001s: create:0.014ms, caps:0.000ms, txts:0.056ms, enum:0.657ms, fmt:0.032ms, buff:0.000ms, axis:0.000ms
+  0.32399|D|engine::DirectInputInputDeviceSystem::EnumDevicesProc| EnumDevicesProc() for device 'Klawiatura' took 0.001s: conv:0.000ms, type:0.000ms, xinp:0.000ms, add/create:0.796ms, create():0.000ms
+  0.32849|D|engine::DirectInputInputDeviceSystem::EnumDevicesProc| Ignoring unsuitable didevice_type 0x11 (17) for device 'Razer Ornata Chroma'
+  0.32852|D|engine::DirectInputInputDeviceSystem::EnumDevicesProc| EnumDevicesProc() for device 'Razer Ornata Chroma' took 0.000s: conv:0.002ms, type:0.030ms
+  0.33031|D|engine::DirectInputInputDeviceSystem::EnumDevicesProc| Ignoring unsuitable didevice_type 0x11 (17) for device 'Razer Ornata Chroma'
+  0.33034|D|engine::DirectInputInputDeviceSystem::EnumDevicesProc| EnumDevicesProc() for device 'Razer Ornata Chroma' took 0.000s: conv:0.001ms, type:0.020ms
+  0.33202|D|engine::DirectInputInputDeviceSystem::EnumDevicesProc| Ignoring unsuitable didevice_type 0x11 (17) for device 'Razer Ornata Chroma'
+  0.33204|D|engine::DirectInputInputDeviceSystem::EnumDevicesProc| EnumDevicesProc() for device 'Razer Ornata Chroma' took 0.000s: conv:0.001ms, type:0.020ms
+  0.33371|D|engine::DirectInputInputDeviceSystem::EnumDevicesProc| Ignoring unsuitable didevice_type 0x11 (17) for device 'Razer Ornata Chroma'
+  0.33373|D|engine::DirectInputInputDeviceSystem::EnumDevicesProc| EnumDevicesProc() for device 'Razer Ornata Chroma' took 0.000s: conv:0.001ms, type:0.020ms
+  0.33957|D|engine::DirectInputInputDeviceSystem::EnumDevicesProc| Ignoring unsuitable didevice_type 0x11 (17) for device 'HID-compliant consumer control device'
+  0.33960|D|engine::DirectInputInputDeviceSystem::EnumDevicesProc| EnumDevicesProc() for device 'HID-compliant consumer control device' took 0.000s: conv:0.002ms, type:0.022ms
+  0.33962|D|engine::DirectInputInputDeviceSystem::enumerateDevices|  *** DirectInput device enumeration finished after 0.022s: DirectInput code:20.73ms, BeamNG code:1.175ms
+  0.33968|D|engine::Platform::init| AMD Ryzen 5 2600 Six-Core Processor AuthenticAMD x64
+  0.33975|D|engine::Platform::init| Microsoft Windows 10 (v10.0) (build 19045), 64-bit
+  0.33977|D|engine::Platform::init| Physical memory: 15.94 GB
+  0.33978|D|engine::Platform::init| Battery: online
+  0.33979|D|engine::Platform::init| Process Priority: Normal (0x20)
+  0.34011|D|engine::ModuleManager::initializeSystem| initializing 115 modules (only displaying anything above 0.1 s)...
+  0.34567|D|engine::SFXFMODProvider::init| SFXFMODProvider - FMOD API version: 2.02.17
+  0.39109|D|engine::SFXSystem::createDevice| Using default audio device: Głośniki (Realtek High Definition Audio)
+  0.47693|D|engine::SFXSystem::createDevice| Created FMOD device 'Głośniki (Realtek High Definition Audio)'
+  0.47696|D|engine::SFXSystem::createDevice|    CAPS_VoiceManagement
+  0.47723|D|engine::SFXSystem::finalizeInitialization|    Provider: FMOD
+  0.47724|D|engine::SFXSystem::finalizeInitialization|    Hardware: false
+  0.47725|D|engine::SFXSystem::finalizeInitialization|    Buffers: 16
+  0.49683|I|GELua.| ============== GELUA VM loading ===============
+  0.61599|D|GELua.gameplay_missions_progress.| Loaded 0 condition types from 0 files.
+  0.61883|D|GELua.gameplay_missions_missions.| Loaded 2 procedural Mission Generators from 2 files.
+  0.62372|D|GELua.gameplay_missions_unlocks.| Loaded 9 condition types from 4 files.
+  0.65451|D|engine::ModuleManager::initializeSystem|  - GameEngineLua in 0.1769942 seconds
+  0.65458|D|engine::GFXInit::init| GFX Init:
+  0.65460|D|engine::_GFXInitReportAdapters|    Null device found
+  0.65470|D|engine::ModuleManager::initializeSystem| ... all modules loaded in 0.3145892 seconds
+  0.65488|D|engine::MainLoop::init| OpenXR: Steam VR mode: disabled
+  0.65522|D|CommandListener| CommandListener started
+  0.65857|D|engine::GFXInit::createDevice| Available adapters: 2
+  0.65860|D|engine::GFXInit::createDevice|  - name:NVIDIA GeForce GTX 1660 (D3D11), outputName:\\.\DISPLAY1, gfx:D3D11, gpu:NVIDIA GeForce GTX 1660
+  0.65861|D|engine::GFXInit::createDevice|  - name:GFX Null Device, outputName:, gfx:, gpu:
+  0.65862|D|engine::GFXInit::createDevice| Attempting to create GFX device 0: NVIDIA GeForce GTX 1660 (D3D11) [with output \\.\DISPLAY1]
+  0.65863|D|engine::GFXInit::createDevice| shader model: 5.0 , available video modes: 167
+  0.65867|D|engine::GFXInit::createDevice| Device created, setting adapter and enumerating modes
+  0.90570|D|engine::GFXD3D11Device::init| Hardware occlusion query detected: Yes
+  0.90593|D|engine::GFXCardProfiler::init| D3D11 -  (NVIDIA GeForce GTX 1660) [5966 MB] ver 
+  0.90595|D|engine::GFXCardProfiler::setCapability| GFXCardProfiler (D3D11) - Setting capability 'maxTextureWidth' to 8192.
+  0.90596|D|engine::GFXCardProfiler::setCapability| GFXCardProfiler (D3D11) - Setting capability 'maxTextureHeight' to 8192.
+  0.90597|D|engine::GFXCardProfiler::setCapability| GFXCardProfiler (D3D11) - Setting capability 'maxTextureSize' to 8192.
+  0.90599|D|engine::GFXCardProfiler::setCapability| GFXCardProfiler (D3D11) - Setting capability 'autoMipMapLevel' to 1.
+  0.90600|D|engine::GFXCardProfiler::setCapability| GFXCardProfiler (D3D11) - Setting capability 'lerpDetailBlend' to 1.
+  0.90601|D|engine::GFXCardProfiler::setCapability| GFXCardProfiler (D3D11) - Setting capability 'fourStageDetailBlend' to 1.
+  0.90723|D|engine::ShaderGen::initShaderGen| Failed to remove file /temp/shaders/procedural/autogenConditioners.h
+  0.90785|D|bng::VfsWrapper::sanitizePathAsStr| Empty path will be resolved to root but should not be used
+  0.90824|D|bng::VfsWrapper::sanitizePathAsStr| Empty path will be resolved to root but should not be used
+  0.90849|D|bng::VfsWrapper::sanitizePathAsStr| Empty path will be resolved to root but should not be used
+  0.90893|D|bng::VfsWrapper::sanitizePathAsStr| Empty path will be resolved to root but should not be used
+  0.90965|D|engine::GFXD3D11Device::init| GFXDevice 11 - SM 5
+  0.91007|D|engine::GFXD3D11WindowTarget::init| setting video mode: Width 1280, Height 720, Format 28, Windowed 1
+  0.91067|D|engine::Win32Window::setVideoMode| AntialiasLevel: 0, BitDepth: 32, DisplayMode: Window, RefreshRate: 60, Resolution: 1599x985, wideScreen: false
+  0.91069|D|engine::Win32Window::setVideoMode| Win32Window::setVideoMode - invoking curtain
+  0.92879|D|engine::GFXD3D11WindowTarget::resetMode| setting video mode: Width 1599, Height 985, Windowed 1, RefreshRate 60/1
+  0.92889|D|engine::GFXD3D11WindowTarget::resetMode| D3D11Device::reset: resizing buffers: BufferCount 1, Width 1599, Height 985, Format 28, Windowed 1
+  0.92982|D|GELua.core_settings_graphic.graphic| Sanitizing display - //./DISPLAY1: Passed.
+  0.92985|D|GELua.core_settings_graphic.graphic| Sanitizing display mode - Window: Passed.
+  0.92987|D|GELua.core_settings_graphic.graphic| Sanitizing display resolution for Window mode - 1599 985: Passed.
+  0.94209|D|engine::GFXD3D11WindowTarget::resetMode| setting video mode: Width 1599, Height 985, Windowed 1, RefreshRate 60/1
+  0.94221|D|engine::GFXD3D11WindowTarget::resetMode| D3D11Device::reset: resizing buffers: BufferCount 1, Width 1599, Height 985, Format 28, Windowed 1
+  0.94646|D|engine::loadFonts| Loading 13 imgui fonts...
+  0.94658|D|engine::imguiCreateContext| Adding fonts to imgui:
+  0.94676|D|engine::imguiCreateContext| 	'cairo_bold'->'ui\common\Cairo-Bold.ttf' Scale: 1.3  RangeCount: 3
+  0.94692|D|engine::imguiCreateContext| 	'cairo_regular'->'ui\common\Cairo-Regular.ttf' Scale: 1.3  RangeCount: 3
+  0.94708|D|engine::imguiCreateContext| 	'cairo_regular_medium'->'ui\common\Cairo-Regular.ttf' Scale: 1.8  RangeCount: 3
+  0.94727|D|engine::imguiCreateContext| 	'cairo_semibold_large'->'ui\common\Cairo-SemiBold.ttf' Scale: 2  RangeCount: 3
+  0.94765|D|engine::imguiCreateContext| 	'consola_regular'->'C:\WINDOWS\Fonts\consola.ttf' Scale: 1  RangeCount: 4
+  0.94800|D|engine::imguiCreateContext| 	'icons'->'ui\common\fa-solid-900.ttf' Scale: 3  RangeCount: 1
+  0.95413|D|engine::imguiCreateContext| 	'notosans_jp_regular'->'ui\common\NotoSansJP-Regular.otf' Scale: 1  RangeCount: 3004
+  0.96030|D|engine::imguiCreateContext| 	'notosans_kr_regular'->'ui\common\NotoSansKR-Regular.otf' Scale: 1  RangeCount: 3
+  0.98055|D|engine::imguiCreateContext| 	'notosans_sc_regular'->'ui\common\NotoSansSC-Regular.otf' Scale: 1  RangeCount: 2506
+  0.99442|D|engine::imguiCreateContext| 	'notosans_tc_regular'->'ui\common\NotoSansTC-Regular.otf' Scale: 1  RangeCount: 7
+  0.99573|D|engine::imguiCreateContext| 	'prompt_regular'->'ui\common\Prompt-Regular.ttf' Scale: 1  RangeCount: 3
+  0.99672|D|engine::imguiCreateContext| 	'robotomono_regular'->'ui\common\RobotoMono-Regular.ttf' Scale: 1  RangeCount: 4
+  0.99737|D|engine::imguiCreateContext| 	'segoeui_regular'->'C:\WINDOWS\Fonts\segoeui.ttf' Scale: 1  RangeCount: 4
+  2.59500|D|imgui.fonts| font texture contains 13 fonts. Atlas size: 4096x16384px
+  2.59504|D|imgui.fonts|  - cairo_bold           [24.3 px]:    292 glyphs
+  2.59506|D|imgui.fonts|  - cairo_regular        [24.3 px]:    292 glyphs
+  2.59507|D|imgui.fonts|  - cairo_regular_medium [33.7 px]:    292 glyphs
+  2.59508|D|imgui.fonts|  - cairo_semibold_large [37.4 px]:    292 glyphs
+  2.59509|D|imgui.fonts|  - consola_regular      [18.7 px]:    465 glyphs
+  2.59510|D|imgui.fonts|  - icons                [56.1 px]:     16 glyphs
+  2.59511|D|imgui.fonts|  - notosans_jp_regular  [18.7 px]:   3685 glyphs
+  2.59512|D|imgui.fonts|  - notosans_kr_regular  [18.7 px]:    388 glyphs
+  2.59513|D|imgui.fonts|  - notosans_sc_regular  [18.7 px]:   3220 glyphs
+  2.59514|D|imgui.fonts|  - notosans_tc_regular  [18.7 px]:  16064 glyphs
+  2.59515|D|imgui.fonts|  - prompt_regular       [18.7 px]:    299 glyphs
+  2.59516|D|imgui.fonts|  - robotomono_regular   [18.7 px]:    460 glyphs
+  2.59517|D|imgui.fonts|  - segoeui_regular      [18.7 px]:    465 glyphs
+  2.59518|D|imgui.fonts| 26230 glyphs totally
+  2.66869|D|engine::Material::_mapMaterial| [Material::mapMaterial] - Cannot map unnamed Material - settings/game-settings.cs
+  2.94872|I|GELua.| ============== GELUA VM loaded ================
+  2.99321|D|engine::run| Started up in 3.00 seconds: fs:9.077ms, crashrpt:95.15ms, fs:177.0ms, platform:59.69ms, modules:314.9ms, TScmdline:2298.ms, cef2:39.97ms
+  2.99670|D|engine::DirectInputDevice::acquire| Succesfully acquired directinput device mouse0
+  2.99697|D|engine::DirectInputDevice::acquire| Succesfully acquired directinput device keyboard0
+  3.01585|W|GELua.core_levels.| info.json missing: /levels/GridMap/info.json
+  3.01653|E|GELua.core_levels.| No entry point for level found: /levels/GridMap. Ignoring level.
+  4.32358|D|GELua._lua_ge_extensions_gameplay_missions_proceduralMissionGenerators_timeTrialMissions.| Hid 0 prodecural TimeTrials missions because they were hidden by real missions.
+  4.32403|D|GELua.gameplay_missions_missions.| Loaded 494 total missions: 455 from files, 39 from generators.
+  4.97602|D|GELua.gameplay_missions_unlocks.| Processed unlock status of missions: 443/494 startable missions, 406/494 visible missions.
+  5.01222|I|GELua.TechCom| Started listening on 127.0.0.1/64256.
+  5.10371|D|bng::VfsWrapper::sanitizePathAsStr| Empty path will be resolved to root but should not be used
+  5.10517|D|bng::VfsWrapper::sanitizePathAsStr| Empty path will be resolved to root but should not be used
+  5.32483|D|engine::SFXFMODProject::acquire| SFXFMODProject: Opened project '/art/sound/fmod/desktop/main_preload.assets.bank' in 0.07923749999999963 seconds. Preload sample data = true.
+  5.41485|D|engine::SFXFMODProject::acquire| SFXFMODProject: Opened project '/art/sound/fmod/desktop/main_preload.streams.bank' in 0.0897225000000006 seconds. Preload sample data = true.
+  5.49487|D|engine::SFXFMODProject::acquire| SFXFMODProject: Opened project '/art/sound/fmod/desktop/vehicle_preload.assets.bank' in 0.07977459999999947 seconds. Preload sample data = true.
+  5.58489|D|engine::SFXFMODProject::acquire| SFXFMODProject: Opened project '/art/sound/fmod/desktop/vehicle_preload.streams.bank' in 0.08977449999999987 seconds. Preload sample data = true.
+  5.62689|D|engine::SFXFMODProject::acquire| SFXFMODProject: Opened project '/art/sound/fmod/desktop/ambient_maps.streams.bank' in 0.04175500000000021 seconds. Preload sample data = false.
+  5.66690|D|engine::SFXFMODProject::acquire| SFXFMODProject: Opened project '/art/sound/fmod/desktop/music.assets.bank' in 0.039784400000000275 seconds. Preload sample data = false.
+  5.71691|D|engine::SFXFMODProject::acquire| SFXFMODProject: Opened project '/art/sound/fmod/desktop/music.streams.bank' in 0.04980720000000005 seconds. Preload sample data = false.
+  5.75692|D|engine::SFXFMODProject::acquire| SFXFMODProject: Opened project '/art/sound/fmod/desktop/speech.assets.bank' in 0.039791300000000085 seconds. Preload sample data = false.
+  5.79693|D|engine::SFXFMODProject::acquire| SFXFMODProject: Opened project '/art/sound/fmod/desktop/speech.streams.bank' in 0.0398095000000005 seconds. Preload sample data = false.
+  5.83860|D|engine::SFXFMODProject::acquire| SFXFMODProject: Opened project '/art/sound/fmod/desktop/ui.assets.bank' in 0.04144240000000021 seconds. Preload sample data = false.
+  5.88859|D|engine::SFXFMODProject::acquire| SFXFMODProject: Opened project '/art/sound/fmod/desktop/ui.streams.bank' in 0.04977019999999932 seconds. Preload sample data = false.
+  5.92862|D|engine::SFXFMODProject::acquire| SFXFMODProject: Opened project '/art/sound/fmod/desktop/vehicle.assets.bank' in 0.03978569999999948 seconds. Preload sample data = false.
+  5.96862|D|engine::SFXFMODProject::acquire| SFXFMODProject: Opened project '/art/sound/fmod/desktop/vehicle.streams.bank' in 0.03979679999999952 seconds. Preload sample data = false.
+  6.05663|D|engine::SFXFMODProject::acquire| SFXFMODProject: Opened project '/art/sound/fmod/desktop/main_preload.strings.bank' in 0.08772270000000049 seconds. Preload sample data = true.
+  6.13566|D|engine::SFXFMODProject::acquire| SFXFMODProject: Opened project '/art/sound/fmod/desktop/main_preload.bank' in 0.07750840000000014 seconds. Preload sample data = true.
+  6.49604|D|engine::SFXFMODProject::acquire| SFXFMODProject: Opened project '/art/sound/fmod/desktop/vehicle_preload.bank' in 0.3592592999999997 seconds. Preload sample data = true.
+  6.54867|D|engine::SFXFMODProject::acquire| SFXFMODProject: Opened project '/art/sound/fmod/desktop/music.bank' in 0.05131949999999996 seconds. Preload sample data = false.
+  6.58867|D|engine::SFXFMODProject::acquire| SFXFMODProject: Opened project '/art/sound/fmod/desktop/speech.bank' in 0.03968469999999957 seconds. Preload sample data = false.
+  6.62868|D|engine::SFXFMODProject::acquire| SFXFMODProject: Opened project '/art/sound/fmod/desktop/ui.bank' in 0.0397242999999996 seconds. Preload sample data = false.
+  6.80694|D|engine::SFXFMODProject::acquire| SFXFMODProject: Opened project '/art/sound/fmod/desktop/vehicle.bank' in 0.17716890000000074 seconds. Preload sample data = false.
+  6.88978|D|GELua.core_input_bindings.bindings| Loaded 286 bindings for device keyboard0
+  6.89024|D|GELua.core_input_bindings.bindings| Loaded 19 bindings for device mouse0
+  7.03121|D|engine::SFXSystem::createDevice| Using default audio device: Głośniki (Realtek High Definition Audio)
+  7.03171|D|GELua.gameplay_rawPois.| Raw Poi Lists Cleared. New Generation: 1
+  7.03176|D|GELua.gameplay_rawPois.| Raw Poi Lists Cleared. New Generation: 2
+  7.03204|D|GELua.gameplay_rawPois.| Raw Poi Lists Cleared. New Generation: 3
+  7.03206|D|GELua.gameplay_rawPois.| Raw Poi Lists Cleared. New Generation: 4
+  7.03338|D|GELua.core_settings_settings.| refreshLanguages(): oldLanguage = ""  appliedLanguage = "" userLanguage = ""
+  7.03340|D|GELua.core_settings_settings.|        switching language.
+  7.46167|D|engine::tryLoadLanguage| Loaded language 'pl-PL' (short fallback 'pl_PL') from file '/locales/pl_PL.json'
+  7.46170|D|engine::reloadLanguages| Switched to OS language: '' -> 'pl-PL' ('pl_PL')
+  7.46510|D|GELua.core_settings_settings.| set font: segoeui_regular
+  7.46666|D|GELua.core_settings_graphic.graphic| Applying graphic settings: \\.\DISPLAY1, Window, 1599 x 985 60 Hz
+  7.46669|D|engine::Win32Window::setVideoMode| AntialiasLevel: 0, BitDepth: 32, DisplayMode: Window, RefreshRate: 60, Resolution: 1599x985, wideScreen: false
+  7.46803|D|engine::GFXD3D11WindowTarget::resetMode| setting video mode: Width 1599, Height 985, Windowed 1, RefreshRate 60/1
+  7.46815|D|engine::GFXD3D11WindowTarget::resetMode| D3D11Device::reset: resizing buffers: BufferCount 1, Width 1599, Height 985, Format 28, Windowed 1
+  7.47375|D|engine::GFXD3D11WindowTarget::resetMode| setting video mode: Width 1599, Height 985, Windowed 1, RefreshRate 60/1
+  7.47388|D|engine::GFXD3D11WindowTarget::resetMode| D3D11Device::reset: resizing buffers: BufferCount 1, Width 1599, Height 985, Format 28, Windowed 1
+  7.47671|D|GELua.core_settings_graphic.graphic| Available Video Modes : { "1920 1080", "1680 1050", "1600 1024", "1600 900", "1440 1080", "1440 900", "1366 768", "1360 768", "1280 1024", "1280 960", "1280 800", "1280 768", "1280 720", "1176 664", "1152 864", "1024 768", "800 600", "720 576", "720 480", "640 480" }
+  7.47695|D|engine::SFXSystem::createDevice| Using default audio device: Głośniki (Realtek High Definition Audio)
+  7.95361|D|GELua.core_cameraModes_relative.core_camera.relative| No refNodes found, using default fallback
+  7.97439|D|GELua.core_input_bindings.bindings| Loaded 286 bindings for device keyboard0
+  7.97473|D|GELua.core_input_bindings.bindings| Loaded 19 bindings for device mouse0
+  8.32778|D|GELua.core_gamestate.gamestate| show main menu (true)
+  8.37189|D|GELua.core_gamestate.gamestate| ui finished loading
+  8.40742|D|CEF.MainGEUI#local://local/ui/modules/apps/app-container.js:168| Expected AppLayout but didn't get one :-( 
+  8.57718|D|GELua.core_modmanager.initDB| mountEntry -- /mods/unpacked/first_mod/:  : first_mod
+  8.57907|D|GELua.core_modmanager.initDB| mountEntry -- /mods/shortcourse_remix.zip: MCR42DK3W : shortcourse_remix
+  8.58010|D|GELua.core_modmanager.initDB| Notification : took 0.067899999999455ms to reorganise 44 files
+  8.71577|W|GELua.core_levels.| info.json missing: /levels/GridMap/info.json
+  8.71685|E|GELua.core_levels.| No entry point for level found: /levels/GridMap. Ignoring level.
+  8.73488|D|GELua.core_modmanager.initDB| Notification : took 154.7689ms to callback
+  8.74140|D|GELua.gameplay_rawPois.| Raw Poi Lists Cleared. New Generation: 5
+  8.77029|I|GELua.adas_gauge_light.modscript| !!!!!!!!!!!!!!!
+  9.44717|D|GELua._lua_ge_extensions_gameplay_missions_proceduralMissionGenerators_timeTrialMissions.| Hid 0 prodecural TimeTrials missions because they were hidden by real missions.
+  9.44784|D|GELua.gameplay_missions_missions.| Loaded 499 total missions: 460 from files, 39 from generators.
+ 10.24432|D|GELua.gameplay_missions_unlocks.| Processed unlock status of missions: 448/499 startable missions, 411/499 visible missions.
+ 10.62166|I|GELua.tech_techCore.TechGE| Accepted new client: 127.0.0.1/54068
+ 10.83107|W|GELua.core_levels.| info.json missing: /levels/GridMap/info.json
+ 10.83211|E|GELua.core_levels.| No entry point for level found: /levels/GridMap. Ignoring level.
+ 10.95116|W|GELua.core_levels.| info.json missing: /levels/GridMap/info.json
+ 10.95220|E|GELua.core_levels.| No entry point for level found: /levels/GridMap. Ignoring level.
+ 10.96805|I|GELua.tech_techCore.TechGE| Loading scenario: /levels/west_coast_usa/scenarios/Alko Google.json
+ 10.96814|I|GELua.tech_techCore.TechGE| Scenario found...
+ 11.05178|D|GELua.gameplay_achievement.LD| reg cb
+ 11.06614|D|GELua.scenario_scenarios.scenarios| loading level: /levels/west_coast_usa/
+ 11.06617|D|GELua.core_gamestate.gamestate| loading screen request from: ; value before was: nil
+ 11.06618|D|GELua.core_gamestate.gamestate| sending show loading screen
+ 11.06622|D|GELua.core_gamestate.gamestate| ui initialised (true)
+ 11.06623|D|GELua.core_gamestate.gamestate| waiting for ui (false)
+ 11.06632|D|GELua.core_gamestate.gamestate| loading screen request from: server.lua; value before was: nil
+ 11.06634|D|GELua.core_gamestate.gamestate| ui initialised (true)
+ 11.06635|D|GELua.core_gamestate.gamestate| waiting for ui (false)
+ 11.06636|D|GELua.core_gamestate.gamestate| loading screen request from: worldReadyState; value before was: nil
+ 11.06637|D|GELua.core_gamestate.gamestate| ui initialised (true)
+ 11.06639|D|GELua.core_gamestate.gamestate| waiting for ui (false)
+ 11.06640|D|GELua.core_gamestate.gamestate| exiting : 
+ 11.56703|D|GELua.core_gamestate.gamestate| ui told us loading screen is now loaded
+ 11.56707|I|GELua.levelLoading| Level loading: '/levels/west_coast_usa/'...
+ 11.59688|D|engine::SFXFMODProject::acquire| SFXFMODProject: Opened project '/art/sound/fmod/desktop/ambient_maps.assets.bank' in 0.02932719999999911 seconds. Preload sample data = false.
+ 11.68890|D|engine::SFXFMODProject::acquire| SFXFMODProject: Opened project '/art/sound/fmod/desktop/ambient_maps.bank' in 0.04159120000000094 seconds. Preload sample data = false.
+ 11.73033|D|GELua.core_vehicles.main| Loading default vehicle
+ 11.73047|D|GELua.core_vehicles.main| Loading the default vehicle pickup
+ 12.85239|D|engine::LoadingManager::loadLevelTile| Starting to load objects for /levels/west_coast_usa/main/
+ 13.15939|D|engine::LoadingManager::loadLevelTile| * loading json took 0.307 s
+ 13.16317|D|engine::LoadingManager::loadLevelTile| * ordering json took 0.004 s
+ 13.19874|D|LoadingManager| Loaded   347x       Base::PointLight           in 0.014s (0.000s each; 0.036s total so far in this category)
+ 13.23811|D|LoadingManager| Loaded   838x       Base::BeamNGWaypoint       in 0.036s (0.000s each; 0.075s total so far in this category)
+ 13.24926|D|LoadingManager| Loaded    32x       Base::CameraBookmark       in 0.011s (0.000s each; 0.086s total so far in this category)
+ 13.35684|I|engine::TerrainCellMaterial::init| Loading TerrainMaterialTextureSet
+ 13.61480|I|engine::TerrainCellMaterial::init| Loading TerrainMaterialTextureSet done.
+ 13.99123|D|LoadingManager| Loaded     2x    Terrain::TerrainBlock         in 0.742s (0.371s each; 0.742s total so far in this category)
+ 14.02641|D|LoadingManager| Loaded     2x Environment::CloudLayer           in 0.035s (0.018s each; 0.035s total so far in this category)
+ 14.05983|D|LoadingManager| Loaded     1x Environment::WaterPlane           in 0.019s (0.019s each; 0.069s total so far in this category)
+ 14.08105|D|LoadingManager| Loaded    10x Environment::GroundCover          in 0.021s (0.002s each; 0.090s total so far in this category)
+ 16.83526|D|engine::Forest::reloadData| Read 136959 forest items split into 153 different types
+ 19.52043|D|LoadingManager| Loaded     1x     Forest::Forest               in 5.438s (5.438s each; 5.438s total so far in this category)
+ 33.29037|D|LoadingManager| Loaded 14206x     Meshes::TSStatic             in 13.770s (0.001s each; 13.770s total so far in this category)
+ 35.25776|D|LoadingManager| Loaded   595x    Prefabs::Prefab               in 1.967s (0.003s each; 1.967s total so far in this category)
+ 35.97129|D|LoadingManager| Loaded 11466x      Roads::DecalRoad            in 0.713s (0.000s each; 0.713s total so far in this category)
+ 35.98653|D|LoadingManager| Loaded   148x      Audio::SFXEmitter           in 0.012s (0.000s each; 0.012s total so far in this category)
+ 36.00757|D|LoadingManager| Loaded   366x      Audio::SFXSpace             in 0.021s (0.000s each; 0.033s total so far in this category)
+ 36.02643|D|LoadingManager| Loaded   155x      Other::SpotLight            in 0.011s (0.000s each; 0.019s total so far in this category)
+ 36.13900|I|engine::SceneStaticManagerRender::_onObjectsReady| *** Built static data in 0.099s
+ 36.13909|D|engine::LoadingManager::loadLevelTile| loadLevelTile took 22.976s
+ 36.14095|I|GELua.levelLoading| Level loaded: /levels/west_coast_usa/main.level.json
+ 36.41255|I|engine::BeamNGPhysicsPlugin::reload| Physics collision reloading...
+ 37.49115|I|libbeamng.engine.staticCollision| *** Loaded Static Collision, containing 5636336 tris, in 0.488 s
+ 37.49140|I|engine::BeamNGPhysicsPlugin::reload| Physics collision reloaded in 1.079s (121521 entries generated in 0.590s, using  1.39mb)
+ 37.49250|D|GELua.spawn.lua| not spawning player upon request
+ 37.49256|D|GELua.core_gamestate.gamestate| exiting : server.lua
+ 37.49260|D|GELua.util_richPresence.Rich Presence| Playing Alko Google
+ 37.49270|D|GELua.util_richPresence.Rich Presence| Playing Alko Google on West Coast Usa
+ 37.49272|I|GELua.gameplay_speedTrapLeaderboards.| Loading leaderboards from settings/cloud/speedTrapLeaderboards/
+ 38.01914|D|GELua.clientStartMission| starting levelPath: /levels/west_coast_usa/main.level.json
+ 38.01928|D|GELua.scenario_scenarios.scenarios| Starting scenario : Alko Google
+ 38.01930|D|GELua.scenario_scenarios.scenarios| Scenario path : /levels/west_coast_usa/scenarios/Alko Google.json
+ 38.01943|D|GELua.scenario_scenarios.scenarios| spawning prefabs ...
+ 38.01946|D|GELua.lua| adding prefab alko google
+ 38.01954|D|GELua.lua| loading prefab alko google
+ 38.01999|I|engine::BeamNGVehicle::spawnObject| Spawning object 'etk800' with default config
+ 38.17987|D|GELua.core_vehicle_manager.vehicleLoader| partConfigData [string] = ""
+ 38.18242|W|GELua.core_vehicle_partmgmt.| Problems reading requested configuration: ""
+ 38.18289|W|GELua.core_vehicle_partmgmt.main| Supplied config file:  not found. Using default config instead.
+ 38.77179|W|GELua.core_vehicles.setPlateText| license plate format not found '52-11' in style 'vehicles/common/licenseplates/west_coast_usa/licensePlate-default.json'
+ 38.77227|I|GELua.core_vehicles.setPlateText| license plate fallback used 'vehicles/common/licenseplates/default/licensePlate-default-52-11.json'
+ 40.07759|D|GELua.core_vehicle_manager.loader| GE load time: 1.9277891 s
+ 40.15665|D|libbeamng.default.init| spawning vehicle /vehicles/etk800/
+ 40.28042|D|libbeamng.loader| Vehicle loading took: 40284.9992 ms
+ 40.32988|D|libbeamng.controller.init| Using relocated controller controller 'vehicleController' at '/vehicleController/vehicleController.lua', original file path: '/vehicleController.lua'
+ 41.60250|D|GELua.core_cameraModes_relative.core_camera.relative| No refNodes found, using default fallback
+ 41.60317|D|GELua.core_camera.| Camera switched to "orbit"
+ 42.61470|D|GELua.util_richPresence.Rich Presence| Playing Alko Google on West Coast Usa with ETK 800-Series
+ 42.64432|D|GELua.core_input_bindings.bindings| Loaded 286 bindings for device keyboard0
+ 42.64468|D|GELua.core_input_bindings.bindings| Loaded 19 bindings for device mouse0
+ 42.64530|D|engine::InputHelper::getFFBID|           Found 0 FFB binding candidates to be assigned for action "steering" in vehicle 'etk800', vehicle ID 51487 (sorted by suitability)
+ 42.64543|D|engine::InputRegistry::logFFBInterfaces| Found 0 FFBInterface candidates (unsorted)
+ 42.64546|D|engine::InputHelper::getFFBID| Step 2: No matches found for player 0, device 'keyboard0' (abandoning search on this device)
+ 42.64548|D|engine::InputHelper::getFFBID|           Found 1 FFB binding candidates to be assigned for action "accelerate" in vehicle 'etk800', vehicle ID 51487 (sorted by suitability)
+ 42.64549|D|engine::InputHelper::getFFBID|            * playerBinding: Player 0, devName "keyboard0", control "up"
+ 42.64550|D|engine::InputRegistry::logFFBInterfaces| Found 0 FFBInterface candidates (unsorted)
+ 42.64551|D|engine::InputHelper::getFFBID| Step 1: No matches found for player 0, device 'keyboard0', control 'up' (abandoning search on this device)
+ 42.64553|D|engine::InputHelper::getFFBID| Step 2: No matches found for player 0, device 'keyboard0' (abandoning search on this device)
+ 42.64554|D|engine::InputHelper::getFFBID|           Found 1 FFB binding candidates to be assigned for action "brake" in vehicle 'etk800', vehicle ID 51487 (sorted by suitability)
+ 42.64556|D|engine::InputHelper::getFFBID|            * playerBinding: Player 0, devName "keyboard0", control "down"
+ 42.64557|D|engine::InputRegistry::logFFBInterfaces| Found 0 FFBInterface candidates (unsorted)
+ 42.64558|D|engine::InputHelper::getFFBID| Step 1: No matches found for player 0, device 'keyboard0', control 'down' (abandoning search on this device)
+ 42.64560|D|engine::InputHelper::getFFBID| Step 2: No matches found for player 0, device 'keyboard0' (abandoning search on this device)
+ 42.64713|E|GELua.scenario_scenarios.scenarios| Prefab: alko google already exist in level. Rejecting loading of duplicate.
+ 42.64726|I|engine::BeamNGPhysicsPlugin::reload| Physics collision reloading...
+ 43.23809|I|engine::BeamNGPhysicsPlugin::reload| Physics collision reloaded in 0.591s (121521 entries generated in 0.591s, using  1.39mb)
+ 43.23823|D|GELua.scenario_scenarios.scenarios| changeState: pre-start
+ 43.25469|D|GELua.freeroam_specialTriggers.specialTriggers| Created 4 special triggers
+ 43.28092|D|GELua.freeroam_facilities.| Loaded facilities on level west_coast_usa (2 garages, 10 gasStations, 5 dealerships)
+ 43.28110|D|GELua.freeroam_facilities_fuelPrice.price| "trilobite_garage"	"diesel"	1.588081681428
+ 43.28355|D|GELua.freeroam_facilities_fuelPrice.price| "trilobite_garage"	"gasoline"	1.4071493411572
+ 43.28803|D|GELua.freeroam_facilities_fuelPrice.price| "trilobite_garage_KEVee"	"electricEnergy"	0.7050997734248
+ 43.28807|D|GELua.freeroam_facilities_fuelPrice.price| "trilobite_city"	"diesel"	1.5721082733201
+ 43.28864|D|GELua.freeroam_facilities_fuelPrice.price| "trilobite_city"	"gasoline"	1.3868434171346
+ 43.29026|D|GELua.freeroam_facilities_fuelPrice.price| "trilobite_city_KEVee"	"electricEnergy"	0.69904411737273
+ 43.29031|D|GELua.freeroam_facilities_fuelPrice.price| "apex"	"diesel"	1.5803308027645
+ 43.29090|D|GELua.freeroam_facilities_fuelPrice.price| "apex"	"gasoline"	1.3947147365291
+ 43.29260|D|GELua.freeroam_facilities_fuelPrice.price| "nodeoline"	"diesel"	1.5166287488858
+ 43.29550|D|GELua.freeroam_facilities_fuelPrice.price| "nodeoline"	"gasoline"	1.4165121818865
+ 43.29719|D|GELua.freeroam_facilities_fuelPrice.price| "tyranos_island"	"diesel"	1.550430130311
+ 43.29774|D|GELua.freeroam_facilities_fuelPrice.price| "tyranos_island"	"gasoline"	1.4444044734252
+ 43.29934|D|GELua.freeroam_facilities_fuelPrice.price| "tyranos_island_KEVee"	"electricEnergy"	0.85569796935447
+ 43.29937|D|GELua.freeroam_facilities_fuelPrice.price| "tyrannos_commercial"	"diesel"	1.4571351506617
+ 43.29995|D|GELua.freeroam_facilities_fuelPrice.price| "tyrannos_commercial"	"gasoline"	1.2657268088838
+ 43.30153|D|GELua.freeroam_facilities_fuelPrice.price| "tyrannos_commercial_KEVee"	"electricEnergy"	0.62313793339286
+ 43.35648|D|GELua.core_paths.core_paths.loadPath| 1 Camera Path(s) loaded.
+ 44.94569|E|GELua.core_trafficSignals.trafficSignals| Controller is missing from signal instance: trafficLight118
+ 44.95539|I|GELua.levelLoading| Loading screen disabled after 33.388s
+ 44.95548|I|GELua.levelLoading| Level loaded in 33.388s: init 0.164s + datablocks 0.090s + materials 1.031s + objects 23.289s + ai.map 0.000s + decals 0.271s + physics 1.079s + cam 0.000s + player 0.001s + fade 7.463s
+ 44.98509|D|GELua.serverConnection| Everything should be loaded setting worldReadyState to 1
+ 45.49956|I|libbeamng.engine.staticCollision| *** Loaded Static Collision, containing 5636336 tris, in 0.511 s
+ 53.37256|D|GELua.core_camera.| Running cameras order:
+ 53.37260|D|GELua.core_camera.|  #1: order=0.200, name=transition
+ 53.37261|D|GELua.core_camera.|  #2: order=0.500, name=trackir
+ 53.37263|D|GELua.core_camera.|  #3: order=0.600, name=fallback
+ 53.37264|D|GELua.core_camera.|  #4: order=1.000, name=gameengine
+ 53.38050|D|GELua.gameplay_playmodeMarkers.| Playmode markers/clusters cleared. New Generation: 5
+ 53.41607|D|GELua.gamestate| Checking material finished loading
+ 53.41610|D|GELua.core_gamestate.gamestate| exiting : worldReadyState
+ 53.41613|D|GELua.core_gamestate.gamestate| show main menu (false)
+ 53.41614|D|GELua.core_gamestate.gamestate| exiting loading screen to menu
+ 55.32598|D|GELua.scenario_scenarios.processVehiclesInScene| processing vehicles. Found 1 vehicles
+ 55.32606|D|GELua.scenario_scenarios.scenarios| vehicle id: 51487 = ego_vehicle
+ 56.08130|E|GELua.core_trafficSignals.trafficSignals| Controller is missing from signal instance: trafficLight118
+ 56.09192|D|GELua.util_richPresence.Rich Presence| Playing Alko Google on West Coast Usa with ETK 800-Series
+ 56.09246|D|GELua.gameplay_playmodeMarkers.| Playmode clusters and markers cleared
+ 60.45813|I|libbeamng.TechCom| Started listening on 127.0.0.1/54076.
+ 60.49122|I|GELua.gameplay_drag_general.| Loaded drag strip from: /levels/west_coast_usa/dragstrips/dragStripData.dragData.json
+ 60.52346|I|GELua.tech_techCore.TechGE| New vehicle connection: 51487, 54076
+ 60.60940|D|GELua.scenario_scenarios.scenarios| onScenarioUIReady(start)
+ 60.61067|D|GELua.scenario_scenarios.scenarios| changeState: pre-running
+ 60.61110|D|GELua.statistics_statistics.statistics| onRaceGoalsInitilised: called 
+ 60.61113|D|GELua.statistics_statistics.statistics| initialiseTables called...
+ 60.62118|I|GELua.scenario_waypoints.waypoints| initialise called....
+ 60.62150|I|GELua.scenario_waypoints.waypoints| No lapconfig found or lapconfig empty. Not initializing waypoints system
+ 60.62182|D|GELua.scenario_scenarios.scenarios| should run: false; state: pre-running
+ 62.79417|I|libbeamng.TechVE| Accepted new vehicle client: 127.0.0.1/54077
+ 63.08149|D|GELua.scenario_scenarios.scenarios| changeState: running
+ 63.08157|D|GELua.core_camera.| Camera switched to "orbit"
+ 63.08223|D|GELua.util_richPresence.Rich Presence| Playing Alko Google on West Coast Usa with ETK 800-Series
+ 63.13747|D|GELua.scenario_scenarios.scenarios| onScenarioUIReady(play)
+ 63.13752|D|GELua.scenario_scenarios.scenarios| should run: false; state: running
+ 67.79988|D|engine::HtmlGuiTexture::~HtmlGuiTexture| VehicleTex-@licenseplate-52-11 | Texture destroyed
+ 67.80141|D|engine::HtmlGuiTexture::~HtmlGuiTexture| VehicleTex-@licenseplate-52-11-normal | Texture destroyed
+ 67.80258|D|engine::HtmlGuiTexture::~HtmlGuiTexture| VehicleTex-@licenseplate-52-11-specular | Texture destroyed
+ 92.28192|D|GELua.util_richPresence.Rich Presence| Playing Alko Google on West Coast Usa with ETK 800-Series
+161.64810|I|engine::GuiCanvas::handleAppEvent| Window closed
+161.66189|D|engine::MainLoop::shutdown| *** shutdown ***
+161.66199|D|CommandListener| CommandListener done
+161.66256|I|GELua.|      112 bytes     0.01 ms TOTAL onPreExit()
+161.66264|I|GELua.|      112 bytes     0.01 ms   extensions.onPreExit
+161.66400|I|GELua.server.lua| *** Level ended: /levels/west_coast_usa/main.level.json
+161.68482|E|GELua.gameplay_statistic.endAct| no activity
+161.69944|D|GELua.util_richPresence.Rich Presence| Playing Alko Google on West Coast Usa with ETK 800-Series
+161.72409|D|GELua.core_input_bindings.bindings| Loaded 286 bindings for device keyboard0
+161.72453|D|GELua.core_input_bindings.bindings| Loaded 19 bindings for device mouse0
+161.72710|D|engine::HtmlGuiTexture::~HtmlGuiTexture| VehicleTex-@etk800_screen | Texture destroyed
+161.72830|D|engine::HtmlGuiTexture::~HtmlGuiTexture| VehicleTex-@etk800_gauges_screen | Texture destroyed
+163.80805|D|engine::SFXFMODProject::release| SFXFMODProject - project_ambient_maps.bank: Closing project '/art/sound/fmod/desktop/ambient_maps.bank'
+163.80854|D|engine::SFXFMODProject::release| SFXFMODProject - project_ambient_maps.assets.bank: Closing project '/art/sound/fmod/desktop/ambient_maps.assets.bank'
+163.80898|D|bng::VfsWrapper::sanitizePathAsStr| Empty path will be resolved to root but should not be used
+163.81063|I|GELua.postFx| % - PostFX Manager - Save complete. Preset saved at : settings/postfxSettings.postfx
+163.81321|I|GELua.|  3557013 bytes  2150.05 ms TOTAL onExit()
+163.81329|I|GELua.|     2056 bytes     0.97 ms   extensions.onExit
+163.81335|I|GELua.|        0 bytes     0.00 ms   disconnectWrapper.bool
+163.81340|I|GELua.|      160 bytes     0.00 ms   disconnectActual.physicsStopSimulation
+163.81346|I|GELua.|       64 bytes     0.01 ms   disconnectActual.findCanvas
+163.81352|I|GELua.|        0 bytes     0.20 ms   disconnectActual.hideMouse
+163.81357|I|GELua.|        0 bytes     0.01 ms   disconnectActual.setVars
+163.81363|I|GELua.|        0 bytes     0.01 ms   server.destroy.setvar (x2)
+163.81368|I|GELua.|      208 bytes     0.09 ms   endMission.vars
+163.81374|I|GELua.|   102556 bytes    21.00 ms   endMission.clientEndMission
+163.81379|I|GELua.|        0 bytes     0.00 ms   endMission.editorGui
+163.81385|I|GELua.|        0 bytes     0.00 ms   endMission.audio
+163.81390|I|GELua.|        0 bytes     4.88 ms   endMission.decals
+163.81396|I|GELua.|  3377125 bytes   596.40 ms   endMission.deleteObjects
+163.81405|I|GELua.|       64 bytes  1425.40 ms   endMission.delete
+163.81411|I|GELua.|      128 bytes    19.13 ms   endMission.cleanup
+163.81416|I|GELua.|      128 bytes    63.26 ms   endMission.levelLoading
+163.81422|I|GELua.|        0 bytes     0.00 ms   endMission.clearLogs
+163.81427|I|GELua.|        0 bytes     0.00 ms   endMission.finalSet
+163.81432|I|GELua.|        0 bytes     0.00 ms   server.destroy.endMission
+163.81479|I|GELua.|        0 bytes     0.08 ms   server.destroy.physics
+163.81484|I|GELua.|        0 bytes    14.53 ms   server.destroy.datablocks
+163.81526|I|GELua.|        0 bytes     0.01 ms   server.destroy.sessioncount
+163.81531|I|GELua.|        0 bytes     0.00 ms   server.destroy.rawsets
+163.81541|I|GELua.|        0 bytes     0.00 ms   disconnectActual.server
+163.81550|I|GELua.|        0 bytes     0.02 ms   disconnectActual.filename
+163.81559|I|GELua.|        0 bytes     0.00 ms   disconnectActual.requestExitLoadingScreen
+163.82830|I|GELua.|        0 bytes     0.00 ms   disconnectActual.callback
+163.82839|I|GELua.|        0 bytes     0.00 ms   disconnectWrapper.help
+163.82851|I|GELua.|        0 bytes     0.00 ms   noLoadingScreenDisconnect
+163.82857|I|GELua.|        0 bytes     0.00 ms   PhysicsPlugin
+163.82863|I|GELua.|        0 bytes     0.00 ms   ParentOnExit
+163.82869|I|GELua.|       64 bytes     0.01 ms   MainEventManager.find
+163.82875|I|GELua.|        0 bytes     0.00 ms   MainEventManager.onExit
+163.82881|I|GELua.|    18456 bytes     1.68 ms   savePostFx
+163.82888|I|GELua.|    56004 bytes     2.33 ms   settings
+163.82903|D|engine::DirectInputDevice::unacquire| Succesfully unacquired directinput device mouse0
+163.82910|D|engine::DirectInputDevice::unacquire| Succesfully unacquired directinput device keyboard0
+164.75382|D|engine::HtmlGuiTexture::~HtmlGuiTexture| MainGEUI | Texture destroyed
+164.90082|D|engine::DiscordIntegration::shutdown| Discord shutting down ...
+165.32248|I|engine::MainLoop::shutdown| This part of shutdown procedure took 3.66 seconds. These are the sub-stages that took more than 10ms to shutdown: LUA.onExit:2166.ms, ModuleManager.shutdown.GameEngineLua:69.06ms, ModuleManager.shutdown.SFXModule:439.9ms, ModuleManager.shutdown.BBEF_SHUT:Sim:395.3ms, ModuleManager.shutdown.Sim:19.50ms, ModuleManager.shutdown.ModuleCEF:46.74ms, ModuleManager.shutdown.BBEF_SHUT:GFXModule:93.72ms, ModuleManager.shutdown.BBEF_SHUT:GFXModule:274.6ms, ModuleManager.shutdown.BBEF_SHUT:MaterialManagerModule:47.13ms, ModuleManager.shutdown.ShaderGen:59.89ms, ModuleManager.shutdown.GFXModule:26.96ms

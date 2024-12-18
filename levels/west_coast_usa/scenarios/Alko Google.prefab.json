@@ -1,0 +1,2 @@
+{ "name": "ego_vehicle", "class": "BeamNGVehicle", "persistentId": "e4a0b684-c60e-4353-9b70-f375652e8ccd", "__parent": "Alko Google_group", "position": [-717, 101, 118], "dataBlock": "default_vehicle", "jBeam": "etk800", "licenseText": "AlkoTest", "rotationMatrix": [0.7071068058785941, -0.7071067564945002, 0.0, 0.7071067564945002, 0.7071068058785941, 0.0, 0.0, 0.0, 1.0], "autoEnterVehicle": false}
+{ "name": "Alko Google_group", "class": "SimGroup", "persistentId": "0aefd467-7fdc-4159-8d6a-b286147e0d28", "groupPosition": "0.000000 0.000000 0.000000"}

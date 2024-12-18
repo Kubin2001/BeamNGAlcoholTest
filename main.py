@@ -12,7 +12,7 @@ bng.open()
 scenario = Scenario('west_coast_usa', 'Alko Google', description="Testowy opis")
 
 
-vehicle = Vehicle('ego_vehicle', model='etk800', license='Kurwa Chuj')
+vehicle = Vehicle('ego_vehicle', model='etk800', license='AlkoTest')
 
 
 

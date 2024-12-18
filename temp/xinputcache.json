@@ -1,0 +1,65 @@
+[
+  {
+    "devId": "",
+    "nameDInput": "",
+    "nameWMI": "Microsoft Xbox One Controller",
+    "type": "xinput",
+    "vidpid": "045e02d1"
+  },
+  {
+    "devId": "",
+    "nameDInput": "",
+    "nameWMI": "XBox360 Wired Gamepad",
+    "type": "xinput",
+    "vidpid": "045e02a1"
+  },
+  {
+    "devId": "",
+    "nameDInput": "",
+    "nameWMI": "XBox360 Wireless Gamepad",
+    "type": "xinput",
+    "vidpid": "045e028e"
+  },
+  {
+    "devId": "",
+    "nameDInput": "",
+    "nameWMI": "Razer Sabertooth Gaming Controller (XBOX360)",
+    "type": "xinput",
+    "vidpid": "fe001689"
+  },
+  {
+    "devId": "USB\\VID_1532&PID_021E&MI_01\\7&37FD8BA0&2&0001",
+    "nameDInput": "",
+    "nameWMI": "Razer Ornata Chroma",
+    "type": "directinput",
+    "vidpid": "1532021e"
+  },
+  {
+    "devId": "USB\\VID_4E53&PID_5407\\6&E9BCFE3&0&5",
+    "nameDInput": "",
+    "nameWMI": "Urz¹dzenie kompozytowe USB",
+    "type": "directinput",
+    "vidpid": "4e535407"
+  },
+  {
+    "devId": "USB\\VID_2357&PID_0115\\123456",
+    "nameDInput": "",
+    "nameWMI": "TP-Link Wireless MU-MIMO USB Adapter",
+    "type": "directinput",
+    "vidpid": "23570115"
+  },
+  {
+    "devId": "",
+    "nameDInput": "Mysz",
+    "nameWMI": "",
+    "type": "unknown",
+    "vidpid": "2b606f1d"
+  },
+  {
+    "devId": "",
+    "nameDInput": "Klawiatura",
+    "nameWMI": "",
+    "type": "unknown",
+    "vidpid": "2b616f1d"
+  }
+]
